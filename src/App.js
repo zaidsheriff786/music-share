@@ -6,6 +6,7 @@ import SongList from "./components/SongList"
 import SongPlayer from "./components/SongPlayer"
 
 function App() {
+	console.log("test")
 	const greaterThanSm = useMediaQuery((theme) => theme.breakpoints.up("sm"), {
 		noSsr: true,
 	})
